@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Last Form</title>
+
+    <style>
+        .heading {
+            margin-left: 100px;
+        }
+        .edit{
+            border: 2px solid black;
+            width: 50%;
+            margin-left: 300px;
+        }
+        .text{
+            margin:0px 50px;
+        }
+        textarea{
+            width: 600px;
+            border-radius: 10px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+<div class="edit">
+    <h1 align="center"> WELCOME TO ACADEMY.... </h1>
+
+<div class="text">
+    <br><br><br><br><br>--Personal Information--
+
+    <form action="vaidehi">
+
+        <lable for="name">
+            Name <input type="text" id="Name" name="name"> <br><br>
+
+            Enter Registered E-mail id <input id="Mail" type="email" name="vai"><br><br>
+
+            Phone number : <input id="Number" type="number" name="num"><br><br>
+
+            Date Of Birth <input id="Birth" type="date" name="d"><br><br>
+
+            Age <input type="number" id="Age" name="age"><br><br>
+
+            Gender :
+            <input id="Gender" type="radio" name="a"> M
+            <input type="radio" name="a" id="Gender">F
+            <input type="radio" name="b" id="Gender">Other<br><br>
+
+
+
+            Residence Address <br> <textarea cols=100 rows=5 id="Address"></textarea><br><br>
+
+            Residance State
+            <select value="place" id="State">
+                <option value="">SELECT STATE
+                <option value="Gujarat">Gujarat
+                <option value="Maharashtra">Maharashtra
+                <option value="Delhi">Delhi
+                <option value="Kerela">Kerela<br><br>
+            </select>
+
+
+
+
+            <br><br> --Academical Information--<br><br>
+
+            Preferable City
+            <select value="place" id="City">
+                <option value="">SELECT CITY
+                <option value="New Delhi">New Delhi
+                <option value="Gangot">Gangot
+                <option value="Kolkatta">Kolkatta
+                <option value="Hyderabad">Hyderabad
+                <option value="Bombay">Bombay
+                <option value="Jaipur">Jaipur
+                <option value="Patna">Patna
+                <option value="Chennai">Chennai<br><br>
+
+            </select><br><br>
+
+            Preferable Game
+            <select value="g" id="Game">
+                <option value="">SELECT GAME
+                <option value="Cricket">Cricket
+                <option value="Swimming">Swimming
+                <option value="Tennis">Tennis
+                <option value="Basketball">Basketball
+                <!-- <option value="g"> -->
+            </select><br><br>
+
+            Course Duration
+            <select value="c" id="Duration">
+                <option value="">SELECT TIME DURATION
+                <option value="1 month"> 1 month
+                <option value="6 month"> 6 month
+                <option value="12 month"> 12 month
+                </select> <br><br>
+
+            Query(if any)<br> <textarea cols=100 rows=5 id="Suggestion"></textarea><br><br>
+
+            <input type="Submit" value="SUBMIT HERE" id="Submit">
+            <input type="Reset" value="RESET NOW">
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
+
+
+
